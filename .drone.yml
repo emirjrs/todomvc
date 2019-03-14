@@ -1,0 +1,9 @@
+kind: pipeline
+name: mvc
+
+steps:
+- name: frontend
+  image: node
+  commands:
+  - npm install
+  - npm test
