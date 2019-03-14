@@ -5,5 +5,5 @@ steps:
 - name: frontend
   image: node
   commands:
-  - npm install
+  - npm install natives@1.1.6
   - npm test
