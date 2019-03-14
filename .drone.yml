@@ -1,10 +1,13 @@
 kind: pipeline
 name: mvc
 
+workspace:
+  base: ./examples/angularjs
+
 steps:
 - name: frontend
   image: node
   commands:
-  - npm version
-  - npm install natives@1.1.6
+  -npm install
+#  - npm install natives@1.1.6
   - npm test
