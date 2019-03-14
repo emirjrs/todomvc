@@ -2,7 +2,7 @@ kind: pipeline
 name: mvc
 
 workspace:
-  base: ./examples/angularjs
+  path: ./examples/angularjs
 
 steps:
 - name: frontend
